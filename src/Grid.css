@@ -1,0 +1,23 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.turn{
+    color: white;
+}
+.ans{
+    color: red;
+}
+.reset{
+    border: 2px;
+    padding: 8px 18px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#4BEF68,#CAE002);
+    font-size: 15px;
+    cursor: pointer;
+}
